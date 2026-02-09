@@ -2,10 +2,15 @@
 🎓 Education: Currently pursuing a BSc (Hons) in Computing Systems.
 
 🛡️ Focus: Aspiring Cybersecurity Professional passionate about digital safety.
+
 🧠 Core Strengths: Problem-solving, analytical thinking, and technical adaptability.
+
 🔐 Key Skills: Developing secure systems, operational resilience, and data integrity.
+
 📚 Continuous Learning: Currently undertaking the Cybersecurity certification.
+
 ⚖️ Values: Dedicated to ethical standards, privacy protection, and safeguarding sensitive information.
+
 🎯 Mission: To implement proactive solutions that mitigate risk and build trust in organizational operations.
 
 
