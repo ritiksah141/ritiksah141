@@ -1,5 +1,6 @@
 # 💫 About Me:
 🎓 Education: Currently pursuing a BSc (Hons) in Computing Systems.
+
 🛡️ Focus: Aspiring Cybersecurity Professional passionate about digital safety.
 🧠 Core Strengths: Problem-solving, analytical thinking, and technical adaptability.
 🔐 Key Skills: Developing secure systems, operational resilience, and data integrity.
