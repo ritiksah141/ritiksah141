@@ -1,5 +1,11 @@
 # 💫 About Me:
-I am an aspiring cybersecurity professional currently pursuing a BSc (Hons) in Computing Systems, with a strong foundation in problem-solving, analytical thinking, and technical adaptability. My key strengths include developing secure systems, enhancing operational resilience, and maintaining confidentiality and data integrity. I am committed to improving my skills in cybersecurity through practical experiences and certifications, such as the Google Professional Cybersecurity course.<br><br>I value protecting organizations and individuals from digital threats, promoting privacy, and ensuring adherence to ethical standards in technology. My passion lies in safeguarding sensitive information and creating proactive solutions to mitigate cyber risks. By leveraging my strengths and values, I aim to support organizations in achieving robust security postures and maintaining trust in their operations.
+🎓 Education: Currently pursuing a BSc (Hons) in Computing Systems.
+🛡️ Focus: Aspiring Cybersecurity Professional passionate about digital safety.
+🧠 Core Strengths: Problem-solving, analytical thinking, and technical adaptability.
+🔐 Key Skills: Developing secure systems, operational resilience, and data integrity.
+📚 Continuous Learning: Currently undertaking the Cybersecurity certification.
+⚖️ Values: Dedicated to ethical standards, privacy protection, and safeguarding sensitive information.
+🎯 Mission: To implement proactive solutions that mitigate risk and build trust in organizational operations.
 
 
 ## 🌐 Socials:
