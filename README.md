@@ -1,19 +1,22 @@
 <div align="center">
 
-<!-- Portfolio Preview Banner -->
+<!-- ═══════════════════════════════════════════════ -->
+<!--           ANIMATED PORTFOLIO BANNER            -->
+<!-- ═══════════════════════════════════════════════ -->
+
 <a href="https://portfolio-lilac-ten-41.vercel.app/" target="_blank">
-  <img src="https://img.shields.io/badge/🛡️%20Portfolio-Visit%20Live%20Site-7c3aed?style=for-the-badge&logoColor=white" alt="Portfolio"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0e0c0b,50:1a1510,100:0e0c0b&height=140&section=header&text=Ritik%20Sah&fontSize=52&fontColor=ffffff&fontAlignY=45&desc=Cybersecurity%20Engineer%20%7C%20portfolio-lilac-ten-41.vercel.app&descSize=14&descColor=4ade80&descAlignY=72&animation=fadeIn" alt="Ritik Sah — Cybersecurity Engineer"/>
 </a>
-
-<br/><br/>
-
-<!-- Live Preview Card -->
-> ### 🌐 [portfolio-lilac-ten-41.vercel.app](https://portfolio-lilac-ten-41.vercel.app/)
-> *Cybersecurity projects · System design · Secure full-stack engineering*
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=7C3AED&center=true&vCenter=true&width=600&lines=Aspiring+Cybersecurity+Engineer;BSc+%28Hons%29+Computing+Systems;Building+Privacy-First+Secure+Systems;IoTSentinel+%7C+BreachLens+%7C+%26+More)](https://portfolio-lilac-ten-41.vercel.app/)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&pause=1200&color=4ADE80&center=true&vCenter=true&width=700&lines=🛡️+Aspiring+Cybersecurity+Engineer;🔬+IoTSentinel+—+84%25+anomaly+detection+accuracy;🌐+BreachLens+—+Cyber+Threat+Intelligence+Platform;🔐+OWASP+%7C+NIST+CSF+%7C+Zero-Trust+Architecture;📍+BSc+(Hons)+Computing+Systems+·+Final+Year)](https://portfolio-lilac-ten-41.vercel.app/)
+
+<br/>
+
+![Status](https://img.shields.io/badge/●%20Open%20to%20Opportunities-brightgreen?style=flat&labelColor=0e0c0b&color=4ade80)
+![Location](https://img.shields.io/badge/London%2C%20UK-grey?style=flat&labelColor=0e0c0b&color=333)
+![Focus](https://img.shields.io/badge/Cybersecurity%20Engineering-grey?style=flat&labelColor=0e0c0b&color=333)
 
 </div>
 
@@ -31,26 +34,25 @@
 
 📚 **Continuous Learning:** Currently completing the Google Cybersecurity Professional Certificate
 
-⚖️ **Values:** Dedicated to ethical standards, privacy protection, and safeguarding sensitive information
+⚖️ **Values:** Ethical standards, privacy protection, and safeguarding sensitive information
 
-🎯 **Mission:** To implement proactive solutions that mitigate risk and build trust in organizational operations
+🎯 **Mission:** Proactive solutions that mitigate risk and build trust in organizational operations
 
 ---
 
 ## 🚀 Featured Projects
 
-| Project | Description | Stack | Link |
-|---|---|---|---|
-| 🛡️ **IoTSentinel** | ML-powered network security monitor for Raspberry Pi — 84% anomaly detection accuracy, 180+ tests | `Python` `Zeek` `River ML` `Raspberry Pi` | [![Repo](https://img.shields.io/badge/Code-black?style=flat&logo=github)](https://github.com/ritiksah141/iotsentinel) |
-| 🔍 **BreachLens** | Full-stack cyber threat intelligence platform — dark web breach tracking & geo-attack mapping | `Flask` `Angular` `MongoDB` `Docker` | [![Repo](https://img.shields.io/badge/Code-black?style=flat&logo=github)](https://github.com/ritiksah141/breachlens) |
-| 📍 **Local Services Directory** | Production marketplace with Stripe payments, AWS CI/CD & OWASP Top 10 mitigations | `React` `Node.js` `PostgreSQL` `AWS` | [![Repo](https://img.shields.io/badge/Code-black?style=flat&logo=github)](https://github.com/ritiksah141/local-services-directory) |
-| 📋 **Botium Toys Audit** | End-to-end security audit — PCI DSS, GDPR, SOC compliance with Python risk tooling | `NIST CSF` `PCI DSS` `Python` | [![Repo](https://img.shields.io/badge/Code-black?style=flat&logo=github)](https://github.com/ritiksah141/botium-toys-audit-report) |
+| Project | Description | Stack |
+|---|---|---|
+| 🛡️ **[IoTSentinel](https://github.com/ritiksah141/iotsentinel)** | ML-powered network security monitor for Raspberry Pi — 84% anomaly detection, 180+ tests, 80+ IoT manufacturer fingerprints | `Python` `Zeek` `River ML` `Raspberry Pi` |
+| 🔍 **[BreachLens](https://github.com/ritiksah141/breachlens)** | Full-stack cyber threat intelligence platform — dark web breach tracking, geo-attack mapping, zero-trust API | `Flask` `Angular` `MongoDB` `Docker` |
+| 📍 **[Local Services Directory](https://github.com/ritiksah141/local-services-directory)** | Production marketplace with Stripe payments, AWS CI/CD and OWASP Top 10 mitigations from day one | `React` `Node.js` `PostgreSQL` `AWS` |
+| 📋 **[Botium Toys Security Audit](https://github.com/ritiksah141/botium-toys-audit-report)** | End-to-end formal audit — 12 critical gaps identified across PCI DSS, GDPR, SOC with CVSS-weighted remediation | `NIST CSF` `PCI DSS` `Python` |
 
 ---
 
 ## 🌐 Socials
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-%237c3aed.svg?logo=vercel&logoColor=white&style=for-the-badge)](https://portfolio-lilac-ten-41.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=for-the-badge)](https://linkedin.com/in/ritik-sah)
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/ritik_sah)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white&style=for-the-badge)](https://instagram.com/_.ritiksah._)
@@ -73,7 +75,7 @@
 
 **Frontend**
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 **ML & Data**
 
@@ -93,9 +95,9 @@
 
 <div align="center">
 
-![](https://github-readme-stats.vercel.app/api?username=ritiksah141&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=ritiksah141&theme=tokyonight&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=ritiksah141&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
+![](https://github-readme-stats.vercel.app/api?username=ritiksah141&theme=dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=0e0c0b&title_color=4ade80&text_color=ffffff&icon_color=4ade80)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=ritiksah141&theme=dark&hide_border=true&background=0e0c0b&ring=4ade80&fire=4ade80&currStreakLabel=4ade80)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=ritiksah141&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact&bg_color=0e0c0b&title_color=4ade80&text_color=ffffff)
 
 </div>
 
@@ -105,7 +107,7 @@
 
 <div align="center">
 
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
 
 </div>
 
@@ -113,10 +115,8 @@
 
 <div align="center">
 
-[![](https://visitcount.itsvg.in/api?id=ritiksah141&icon=0&color=9)](https://visitcount.itsvg.in)
-
-*Open to internships · placement years · graduate roles in cybersecurity engineering*
-
-**[🛡️ View Portfolio →](https://portfolio-lilac-ten-41.vercel.app/)**
+[![](https://visitcount.itsvg.in/api?id=ritiksah141&icon=0&color=0)](https://visitcount.itsvg.in)
 
 </div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0e0c0b,50:1a1510,100:0e0c0b&height=80&section=footer" alt="footer"/>
