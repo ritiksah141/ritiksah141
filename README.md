@@ -1,48 +1,93 @@
 <div align="center">
 
-<!-- ═══════════════════════════════════════════════ -->
-<!--                FINAL BOSS HEADER               -->
-<!-- ═══════════════════════════════════════════════ -->
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rounded&color=0:ffffff,50:f1f5f9,100:e2e8f0&height=220&section=header&text=Ritik%20Sah&fontSize=60&fontColor=0f172a&fontAlignY=40&desc=Final%20Year%20BSc%20Computing%20Systems%20Student%20%7C%20Cybersecurity%20Focus&descSize=18&descColor=475569&descAlignY=70&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rounded&color=0:ffffff,50:f1f5f9,100:e2e8f0&height=240&section=header&text=Ritik%20Sah&fontSize=62&fontColor=0f172a&fontAlignY=40&desc=Final%20Year%20BSc%20Computing%20Systems%20Student%20%7C%20Cybersecurity%20Focus&descSize=20&descColor=475569&descAlignY=70&animation=fadeIn"/>
 
 <br/>
 
-<!-- TERMINAL SIMULATION -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2200&pause=700&color=22C55E&center=true&vCenter=true&width=950&lines=$+booting+security+analysis+environment...;$+loading+network+traffic+models...;$+running+anomaly+detection...;🛡️+IoTSentinel:+ACTIVE;🔍+BreachLens:+INTELLIGENCE+PIPELINE;⚡+status:+learning,+building,+securing" />
+<img width="85%" src="https://media.tenor.com/qJ5evVs-_uUAAAAC/cyber-security.gif"/>
 
 <br/>
 
-<!-- CYBER DASHBOARD -->
-<img width="85%" src="https://media.giphy.com/media/coxQHKASG60HrHtvkt/giphy.gif"/>
-
-<br/>
-
-<!-- ACTION BUTTONS -->
 <p>
 <a href="https://portfolio-lilac-ten-41.vercel.app/">
-<img src="https://img.shields.io/badge/🌐 Portfolio-Explore-22c55e?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Portfolio-Explore-f1f5f9?style=for-the-badge"/>
 </a>
 <a href="https://github.com/ritiksah141">
-<img src="https://img.shields.io/badge/GitHub-Projects-0f172a?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-Projects-e2e8f0?style=for-the-badge"/>
 </a>
 <a href="mailto:your-email@example.com">
-<img src="https://img.shields.io/badge/Contact-Available%20for%20Opportunities-16a34a?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Contact-Open%20to%20Work-dbeafe?style=for-the-badge"/>
 </a>
-</p>
-
-<!-- STATUS -->
-<p>
-<img src="https://img.shields.io/badge/Final%20Year-Student-22c55e?style=flat-square"/>
-<img src="https://img.shields.io/badge/London-UK-e2e8f0?style=flat-square"/>
-<img src="https://img.shields.io/badge/Focus-Cybersecurity-0f172a?style=flat-square"/>
 </p>
 
 </div>
 
 ---
 
-## ⚡ Live Activity & Contributions
+## 🎯 Recruiter Snapshot
+
+- 🛡️ Cybersecurity-focused Final Year Computing Systems Student  
+- 🔍 Built ML-based anomaly detection system (**84% accuracy**)  
+- 🌐 Developed secure full-stack applications with authentication & payments  
+- ⚙️ Hands-on with **OWASP Top 10, NIST CSF & Zero Trust**  
+- 🚀 Seeking **Junior Cybersecurity Analyst / Security Engineer roles**
+
+> I build systems that **detect threats, secure applications, and handle real-world attack surfaces**.
+
+---
+
+## 🧊 About Me
+
+- 🎓 Final Year BSc (Hons) Computing Systems — London  
+- 🛡️ Strong interest in Cybersecurity & Threat Detection  
+- 🔐 Focus on secure architecture & real-world attack mitigation  
+- 🚀 Combining Machine Learning with Security systems  
+
+---
+
+## 🚀 Featured Projects (RECRUITER-OPTIMIZED)
+
+### 🛡️ IoTSentinel — ML-Based IoT Threat Detection
+- Achieved **84% anomaly detection accuracy** using streaming ML models  
+- Analysed real-world network traffic (CICIDS dataset) for intrusion patterns  
+- Built lightweight monitoring system suitable for **Raspberry Pi deployment**  
+- Reduced false positives by tuning detection thresholds on traffic features  
+
+**Tech:** Python, Scikit-learn, Pandas, Zeek, Raspberry Pi  
+
+---
+
+### 🔍 BreachLens — Cyber Threat Intelligence Platform
+- Designed full-stack platform for **tracking and visualising breach data**  
+- Implemented secure APIs aligned with **Zero Trust principles**  
+- Processed unstructured threat data (TTPs, leaks, indicators of compromise)  
+- Built modular backend for scalability and real-time intelligence updates  
+
+**Tech:** Flask, MongoDB, Angular, Docker  
+
+---
+
+### 📍 Local Services Directory — Secure Marketplace System
+- Developed production-ready platform with **authentication & role-based access**  
+- Integrated **Stripe payment system** with secure transaction handling  
+- Applied **OWASP Top 10 mitigations** (input validation, auth security, etc.)  
+- Implemented admin dashboard with analytics and system monitoring  
+
+**Tech:** React, Node.js, PostgreSQL, Stripe  
+
+---
+
+### 📋 Security Audit Framework — Risk Assessment System
+- Conducted structured audit using **NIST CSF, PCI DSS, and GDPR principles**  
+- Identified **12+ critical vulnerabilities** with CVSS-based prioritisation  
+- Produced remediation roadmap improving organisational security posture  
+- Simulated real-world audit workflows and compliance reporting  
+
+**Tech:** Python, NIST CSF, CVSS  
+
+---
+
+## ⚡ Live Activity
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=ritiksah141&bg_color=f8fafc&color=0f172a&line=22c55e&point=16a34a&area=true&hide_border=true"/>
 
@@ -52,78 +97,75 @@
 
 ---
 
-## 🧠 About Me
+## 🌐 Socials
 
-- 🎓 Final Year BSc (Hons) Computing Systems Student — London  
-- 🛡️ Strong interest in Cybersecurity, Threat Detection & Secure Systems  
-- 🔐 Focused on practical implementations using OWASP, NIST & Zero Trust concepts  
-- 🚀 Building real-world projects integrating Machine Learning with Security  
-- 🎯 Actively seeking entry-level roles in Cybersecurity / Security Engineering  
+[![Discord](https://img.shields.io/badge/Discord-f1f5f9?style=for-the-badge&logo=discord&logoColor=black)](https://discord.gg/ritik_sah)  
+[![Instagram](https://img.shields.io/badge/Instagram-f1f5f9?style=for-the-badge&logo=instagram&logoColor=black)](https://instagram.com/_.ritiksah._)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-f1f5f9?style=for-the-badge&logo=linkedin&logoColor=black)](https://linkedin.com/in/ritik-sah)
 
 ---
 
-## 🚀 Featured Projects
+## 💻 Tech Stack
 
-| Project | Description | Stack |
-|---|---|---|
-| 🛡️ IoTSentinel | IoT anomaly detection system (84% accuracy) | Python, Zeek |
-| 🔍 BreachLens | Cyber threat intelligence platform | Flask, MongoDB |
-| 📍 Local Services Directory | Secure full-stack marketplace | React, Node |
-| 📋 Security Audit | Risk-based audit framework using CVSS | NIST, Python |
-
----
-
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/ritik_sah) 
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_.ritiksah._) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ritik-sah)
+### 🧠 Languages
+![Java](https://img.shields.io/badge/java-f8fafc?style=for-the-badge&logo=openjdk&logoColor=black)
+![JavaScript](https://img.shields.io/badge/javascript-f8fafc?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/python-f8fafc?style=for-the-badge&logo=python&logoColor=black)
+![PHP](https://img.shields.io/badge/php-f8fafc?style=for-the-badge&logo=php&logoColor=black)
+![Bash](https://img.shields.io/badge/bash-f8fafc?style=for-the-badge&logo=gnu-bash&logoColor=black)
 
 ---
 
-## 💻 Tech Stack:
+### 🔐 Cybersecurity & Networking
+![Wireshark](https://img.shields.io/badge/Wireshark-e2e8f0?style=for-the-badge&logo=wireshark&logoColor=black)
+![Nmap](https://img.shields.io/badge/Nmap-e2e8f0?style=for-the-badge)
+![Burp Suite](https://img.shields.io/badge/Burp%20Suite-e2e8f0?style=for-the-badge)
+![OWASP](https://img.shields.io/badge/OWASP-f1f5f9?style=for-the-badge)
+![NIST](https://img.shields.io/badge/NIST%20CSF-f1f5f9?style=for-the-badge)
 
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
-![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+---
 
-![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+### ⚙️ Backend & APIs
+![Node.js](https://img.shields.io/badge/node.js-f1f5f9?style=for-the-badge&logo=node.js&logoColor=black)
+![Express.js](https://img.shields.io/badge/express-f1f5f9?style=for-the-badge&logo=express&logoColor=black)
+![Flask](https://img.shields.io/badge/flask-f1f5f9?style=for-the-badge&logo=flask&logoColor=black)
+![Laravel](https://img.shields.io/badge/laravel-f1f5f9?style=for-the-badge&logo=laravel&logoColor=black)
+![REST API](https://img.shields.io/badge/REST-API-e2e8f0?style=for-the-badge)
+![JWT](https://img.shields.io/badge/JWT-e2e8f0?style=for-the-badge)
 
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
-![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
+---
 
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+### 🗄️ Databases
+![MongoDB](https://img.shields.io/badge/mongodb-e2e8f0?style=for-the-badge&logo=mongodb&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/postgres-e2e8f0?style=for-the-badge&logo=postgresql&logoColor=black)
+![SQLite](https://img.shields.io/badge/sqlite-e2e8f0?style=for-the-badge&logo=sqlite&logoColor=black)
 
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+---
 
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+### 🤖 ML & Data
+![scikit-learn](https://img.shields.io/badge/sklearn-dbeafe?style=for-the-badge&logo=scikit-learn&logoColor=black)
+![Pandas](https://img.shields.io/badge/pandas-dbeafe?style=for-the-badge&logo=pandas&logoColor=black)
+![NumPy](https://img.shields.io/badge/numpy-dbeafe?style=for-the-badge&logo=numpy&logoColor=black)
+![TensorFlow](https://img.shields.io/badge/tensorflow-dbeafe?style=for-the-badge&logo=tensorflow&logoColor=black)
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+---
 
-![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+### ☁️ DevOps & Tools
+![Docker](https://img.shields.io/badge/docker-f8fafc?style=for-the-badge&logo=docker&logoColor=black)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-f8fafc?style=for-the-badge&logo=githubactions&logoColor=black)
+![Linux](https://img.shields.io/badge/linux-f8fafc?style=for-the-badge&logo=linux&logoColor=black)
+![Azure](https://img.shields.io/badge/azure-f8fafc?style=for-the-badge&logo=microsoftazure&logoColor=black)
+![Vercel](https://img.shields.io/badge/vercel-f8fafc?style=for-the-badge&logo=vercel&logoColor=black)
+![Firebase](https://img.shields.io/badge/firebase-f8fafc?style=for-the-badge&logo=firebase&logoColor=black)
 
-![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
+---
 
-![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+### 🧰 Tools
+![Git](https://img.shields.io/badge/git-f1f5f9?style=for-the-badge&logo=git&logoColor=black)
+![GitHub](https://img.shields.io/badge/github-f1f5f9?style=for-the-badge&logo=github&logoColor=black)
+![Postman](https://img.shields.io/badge/postman-f1f5f9?style=for-the-badge&logo=postman&logoColor=black)
+![Notion](https://img.shields.io/badge/notion-f1f5f9?style=for-the-badge&logo=notion&logoColor=black)
+![Trello](https://img.shields.io/badge/trello-f1f5f9?style=for-the-badge&logo=trello&logoColor=black)
 
 ---
 
@@ -151,5 +193,4 @@
 
 ---
 
-<!-- FOOTER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:f8fafc,100:e2e8f0&height=25&section=header"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rounded&color=0:e2e8f0,50:f1f5f9,100:ffffff&height=120&section=footer"/>
