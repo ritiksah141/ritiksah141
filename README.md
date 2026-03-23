@@ -4,7 +4,7 @@
 <!--                FINAL BOSS HEADER               -->
 <!-- ═══════════════════════════════════════════════ -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:22c55e,100:f8fafc&height=240&section=header&text=Ritik%20Sah&fontSize=64&fontColor=0f172a&fontAlignY=38&desc=Final%20Year%20BSc%20Computing%20Systems%20Student%20%7C%20Cybersecurity%20Focus&descSize=20&descColor=16a34a&descAlignY=70&animation=twinkling"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rounded&color=0:ffffff,50:f1f5f9,100:e2e8f0&height=220&section=header&text=Ritik%20Sah&fontSize=60&fontColor=0f172a&fontAlignY=40&desc=Final%20Year%20BSc%20Computing%20Systems%20Student%20%7C%20Cybersecurity%20Focus&descSize=18&descColor=475569&descAlignY=70&animation=fadeIn"/>
 
 <br/>
 
@@ -152,4 +152,4 @@
 ---
 
 <!-- FOOTER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:f8fafc,50:22c55e,100:020617&height=120&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:f8fafc,100:e2e8f0&height=25&section=header"/>
