@@ -1,7 +1,5 @@
 <div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rounded&color=0:ffffff,50:f1f5f9,100:e2e8f0&height=240&section=header&text=Ritik%20Sah&fontSize=62&fontColor=0f172a&fontAlignY=40&desc=Final%20Year%20BSc%20Computing%20Systems%20Student%20%7C%20Cybersecurity%20Focus&descSize=20&descColor=475569&descAlignY=70&animation=fadeIn"/>
-
+  
 <br/>
 
 <img width="85%" src="https://media.tenor.com/qJ5evVs-_uUAAAAC/cyber-security.gif"/>
@@ -192,5 +190,3 @@
 </div>
 
 ---
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rounded&color=0:e2e8f0,50:f1f5f9,100:ffffff&height=120&section=footer"/>
