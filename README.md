@@ -22,8 +22,6 @@
 
 ---
 
-## 🎯 Recruiter Snapshot
-
 - 🛡️ Cybersecurity-focused Final Year Computing Systems Student  
 - 🔍 Built ML-based anomaly detection system (**84% accuracy**)  
 - 🌐 Developed secure full-stack applications with authentication & payments  
