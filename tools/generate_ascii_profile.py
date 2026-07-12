@@ -25,7 +25,17 @@ width, height, maximum, pixels = read_pgm(PGM)
 rows = []
 for y in range(height):
     row = pixels[y * width : (y + 1) * width]
-    rows.append("".join(RAMP[min(len(RAMP) - 1, value * len(RAMP) // (maximum + 1))] for value in row))
+    characters = []
+    for x, value in enumerate(row):
+        # Keep the portrait inside a deliberate oval so background details do
+        # not turn into stray ASCII strokes around the lower corners.
+        dx = (x - (width - 1) / 2) / (width * 0.46)
+        dy = (y - (height - 1) / 2) / (height * 0.50)
+        if dx * dx + dy * dy > 1:
+            characters.append(" ")
+        else:
+            characters.append(RAMP[min(len(RAMP) - 1, value * len(RAMP) // (maximum + 1))])
+    rows.append("".join(characters))
 
 ascii_lines = "\n".join(
     f'<text x="52" y="{86 + index * 10}" class="portrait">{line}</text>'
@@ -37,10 +47,10 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" view
   <desc id="desc">An ASCII portrait of Ritik beside cybersecurity profile information.</desc>
   <defs>
     <linearGradient id="frame" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#22d3ee"/><stop offset="0.5" stop-color="#334155"/><stop offset="1" stop-color="#0891b2"/>
+      <stop offset="0" stop-color="#f59e0b"/><stop offset="0.5" stop-color="#334155"/><stop offset="1" stop-color="#22c55e"/>
     </linearGradient>
     <linearGradient id="ascii" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0" stop-color="#e2e8f0"/><stop offset="0.55" stop-color="#67e8f9"/><stop offset="1" stop-color="#0891b2"/>
+      <stop offset="0" stop-color="#fef3c7"/><stop offset="0.5" stop-color="#f59e0b"/><stop offset="1" stop-color="#22c55e"/>
     </linearGradient>
     <filter id="glow"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
@@ -49,9 +59,9 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" view
   <rect x="18" y="18" width="1164" height="42" rx="10" fill="#0f172a"/>
   <circle cx="43" cy="39" r="7" fill="#fb7185"/><circle cx="67" cy="39" r="7" fill="#fbbf24"/><circle cx="91" cy="39" r="7" fill="#4ade80"/>
   <text x="600" y="45" text-anchor="middle" class="chrome">ritik@github: ~/profile</text>
-  <rect x="30" y="76" width="500" height="394" rx="14" fill="#050b18" stroke="#164e63"/>
+  <rect x="30" y="76" width="500" height="394" rx="14" fill="#050b18" stroke="#365314"/>
   <g fill="url(#ascii)" filter="url(#glow)">{ascii_lines}</g>
-  <line x1="560" y1="85" x2="560" y2="450" stroke="#164e63" stroke-width="2"/>
+  <line x1="560" y1="85" x2="560" y2="450" stroke="#365314" stroke-width="2"/>
   <text x="600" y="112" class="prompt">$ whoami</text>
   <text x="600" y="151" class="name">RITIK SAH</text>
   <text x="600" y="181" class="role">CYBERSECURITY • THREAT INTELLIGENCE</text>
@@ -65,10 +75,10 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" view
   <style>
     .portrait {{ font: 10px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; white-space: pre; letter-spacing: 1px; }}
     .chrome {{ fill: #94a3b8; font: 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
-    .prompt {{ fill: #22d3ee; font: 600 18px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
+    .prompt {{ fill: #f59e0b; font: 600 18px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
     .name {{ fill: #f8fafc; font: 700 33px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 3px; }}
-    .role {{ fill: #67e8f9; font: 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 1px; }}
-    .key {{ fill: #22d3ee; font: 700 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
+    .role {{ fill: #86efac; font: 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 1px; }}
+    .key {{ fill: #fbbf24; font: 700 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
     .value {{ fill: #cbd5e1; font: 16px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
     .online {{ fill: #4ade80; font: 16px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
     .quote {{ fill: #94a3b8; font: italic 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
