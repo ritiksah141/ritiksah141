@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 PGM = ROOT / "assets" / "avatar-gray.pgm"
-OUTPUT = ROOT / "assets" / "ascii-profile-v4.svg"
+OUTPUT = ROOT / "assets" / "ascii-profile-v5.svg"
 RAMP = "@%#*+=-:. "
 
 
@@ -33,6 +33,10 @@ for y in range(height):
         dy = (y - (height - 1) / 2) / (height * 0.45)
         if abs(dx) ** 6 + abs(dy) ** 6 > 1:
             characters.append(" ")
+        elif x < width * 0.34 and y > height * 0.70:
+            # The source photo has a bright edge here which becomes a run of
+            # dashes. Normalize it to the surrounding terminal-dot texture.
+            characters.append(":")
         else:
             characters.append(RAMP[min(len(RAMP) - 1, value * len(RAMP) // (maximum + 1))])
     rows.append("".join(characters))
