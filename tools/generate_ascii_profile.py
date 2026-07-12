@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 PGM = ROOT / "assets" / "avatar-gray.pgm"
-OUTPUT = ROOT / "assets" / "ascii-profile-v5.svg"
+OUTPUT = ROOT / "assets" / "ascii-profile-v6.svg"
 RAMP = "@%#*+=-:. "
 
 
@@ -33,12 +33,13 @@ for y in range(height):
         dy = (y - (height - 1) / 2) / (height * 0.45)
         if abs(dx) ** 6 + abs(dy) ** 6 > 1:
             characters.append(" ")
-        elif x < width * 0.34 and y > height * 0.70:
-            # The source photo has a bright edge here which becomes a run of
-            # dashes. Normalize it to the surrounding terminal-dot texture.
-            characters.append(":")
         else:
-            characters.append(RAMP[min(len(RAMP) - 1, value * len(RAMP) // (maximum + 1))])
+            character = RAMP[min(len(RAMP) - 1, value * len(RAMP) // (maximum + 1))]
+            # Normalize only the stray background dashes. Keeping the other
+            # characters intact preserves the adjacent shoulder and neck.
+            if x < width * 0.34 and y > height * 0.70 and character == "-":
+                character = ":"
+            characters.append(character)
     rows.append("".join(characters))
 
 ascii_lines = "\n".join(
@@ -64,7 +65,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" view
   <circle cx="43" cy="39" r="7" fill="#fb7185"/><circle cx="67" cy="39" r="7" fill="#fbbf24"/><circle cx="91" cy="39" r="7" fill="#4ade80"/>
   <text x="600" y="45" text-anchor="middle" class="chrome">ritik@github: ~/profile</text>
   <rect x="30" y="76" width="500" height="394" rx="14" fill="#030a05" stroke="#166534"/>
-  <g fill="url(#ascii)" filter="url(#glow)">{ascii_lines}</g>
+  <g class="avatar-pulse" fill="url(#ascii)" filter="url(#glow)">{ascii_lines}</g>
   <line x1="560" y1="85" x2="560" y2="450" stroke="#166534" stroke-width="2"/>
   <text x="600" y="112" class="prompt">$ whoami</text>
   <text x="600" y="151" class="name">RITIK SAH</text>
@@ -79,6 +80,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" view
   <text x="600" y="454" class="quote">“Turn noisy data into useful security signals.”</text>
   <style>
     .portrait {{ font: 10px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; white-space: pre; letter-spacing: 1px; }}
+    .avatar-pulse {{ transform-box: fill-box; transform-origin: center; animation: terminal-pulse 2.8s ease-in-out infinite; }}
     .chrome {{ fill: #94a3b8; font: 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
     .prompt {{ fill: #4ade80; font: 600 18px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
     .name {{ fill: #f8fafc; font: 700 33px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 3px; }}
@@ -87,6 +89,11 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" view
     .value {{ fill: #cbd5e1; font: 16px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
     .online {{ fill: #4ade80; font: 16px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
     .quote {{ fill: #94a3b8; font: italic 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }}
+    @keyframes terminal-pulse {{
+      0%, 100% {{ opacity: .82; }}
+      50% {{ opacity: 1; }}
+    }}
+    @media (prefers-reduced-motion: reduce) {{ .avatar-pulse {{ animation: none; }} }}
   </style>
 </svg>'''
 

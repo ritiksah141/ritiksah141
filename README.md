@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="./assets/ascii-profile-v5.svg" alt="ASCII portrait and terminal profile for Ritik Sah" />
+<img width="100%" src="./assets/ascii-profile-v6.svg" alt="Animated ASCII portrait and terminal profile for Ritik Sah" />
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-238636?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-lilac-ten-41.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ritik-sah)
