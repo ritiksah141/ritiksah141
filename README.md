@@ -21,6 +21,8 @@ I build security-focused systems that turn noisy technical data into clear, usef
 
 A Raspberry Pi home-network monitor that learns normal device behaviour, detects anomalies, and explains alerts in plain English.
 
+[![Website](https://img.shields.io/badge/iotsentinel.org-Visit-238636?style=for-the-badge&logo=safari&logoColor=white)](https://iotsentinel.org)
+
 `Python` `Machine Learning` `Network Security` `Raspberry Pi`
 
 </td>
