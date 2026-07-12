@@ -1,8 +1,6 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&height=230&color=0:020617,45:0f172a,100:06b6d4&text=Ritik%20Sah&fontColor=e2e8f0&fontSize=62&fontAlignY=36&desc=Cybersecurity%20%7C%20Threat%20Intelligence%20%7C%20Secure%20Systems&descAlignY=57&descSize=18&animation=fadeIn)
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=760&lines=Building+systems+that+detect+and+explain+threats;Turning+security+data+into+actionable+intelligence;Open+to+junior+cybersecurity+opportunities)](https://git.io/typing-svg)
+<img width="100%" src="./assets/ascii-profile.svg" alt="ASCII portrait and terminal profile for Ritik Sah" />
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-0891B2?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-lilac-ten-41.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ritik-sah)
@@ -10,19 +8,6 @@
 [![Profile views](https://komarev.com/ghpvc/?username=ritiksah141&style=for-the-badge&color=0891b2&label=PROFILE+VIEWS)](https://github.com/ritiksah141)
 
 </div>
-
-## `whoami`
-
-```yaml
-name: Ritik Sah
-location: London, United Kingdom
-education: Final-year BSc (Hons) Computing Systems
-focus:
-  - Cybersecurity and threat intelligence
-  - Network and IoT anomaly detection
-  - Secure, cloud-native applications
-currently: Building practical security tools and seeking junior cyber roles
-```
 
 I build security-focused systems that turn noisy technical data into clear, useful signals. My work spans machine-learning anomaly detection, cyber-threat intelligence, secure application architecture, and structured risk assessment.
 
