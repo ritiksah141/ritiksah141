@@ -1,11 +1,11 @@
 <div align="center">
 
-<img width="100%" src="./assets/ascii-profile-v2.svg" alt="ASCII portrait and terminal profile for Ritik Sah" />
+<img width="100%" src="./assets/ascii-profile-v3.svg" alt="ASCII portrait and terminal profile for Ritik Sah" />
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-0891B2?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-lilac-ten-41.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-238636?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-lilac-ten-41.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ritik-sah)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/_.ritiksah._)
-[![Profile views](https://komarev.com/ghpvc/?username=ritiksah141&style=for-the-badge&color=0891b2&label=PROFILE+VIEWS)](https://github.com/ritiksah141)
+[![Profile views](https://komarev.com/ghpvc/?username=ritiksah141&style=for-the-badge&color=238636&label=PROFILE+VIEWS)](https://github.com/ritiksah141)
 
 </div>
 
@@ -26,17 +26,6 @@ A Raspberry Pi home-network monitor that learns normal device behaviour, detects
 </td>
 <td width="50%" valign="top">
 
-### [BreachLens](https://github.com/ritiksah141/BreachLens)
-
-A full-stack cyber-threat intelligence platform for tracking dark-web breaches, mapping global attacks, and monitoring compromised assets.
-
-`Flask` `Angular` `MongoDB` `Docker`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### [ThreatVault](https://github.com/ritiksah141/ThreatVault)
 
 A scalable, cloud-native evidence and multimedia-sharing platform designed for security professionals.
@@ -44,17 +33,36 @@ A scalable, cloud-native evidence and multimedia-sharing platform designed for s
 `Cloud Native` `Security` `Full Stack` `Evidence Management`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
-### [Botium Toys Security Audit](https://github.com/ritiksah141/Botium-Toys-Audit-Report)
+### [BreachLens](https://github.com/ritiksah141/BreachLens)
 
-A structured security audit covering scope, risk, compliance gaps, and prioritized remediation recommendations.
+A full-stack cyber-threat intelligence platform for tracking dark-web breaches, mapping global attacks, and monitoring compromised assets.
 
-`NIST CSF` `Risk Assessment` `Compliance` `Security Audit`
+`Flask` `Angular` `MongoDB` `Docker`
+
+</td>
+<td width="50%" valign="top">
+
+### DUSK
+
+Co-owned with **TFTT44** and currently in active development. More project details will be published when the repository becomes publicly available.
+
+`Co-owner` `In Development` `Security Engineering`
 
 </td>
 </tr>
 </table>
+
+## Open-source project
+
+### [OpenShield](https://github.com/openshield-org/openshield)
+
+An open-source Cloud Security Posture Management platform for Azure—a community-driven alternative to commercial CSPM tools. I contribute through my [OpenShield fork](https://github.com/ritiksah141/openshield).
+
+`Python` `Azure` `Cloud Security` `CSPM` `Open Source`
 
 ## Security toolkit
 
@@ -86,10 +94,14 @@ A structured security audit covering scope, risk, compliance gaps, and prioritiz
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=ritiksah141&show_icons=true&hide_border=true&bg_color=020617&title_color=22d3ee&text_color=cbd5e1&icon_color=06b6d4&rank_icon=github" alt="Ritik's GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ritiksah141&layout=compact&hide_border=true&bg_color=020617&title_color=22d3ee&text_color=cbd5e1&langs_count=6" alt="Ritik's most used languages" />
+<img width="95%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ritiksah141&theme=github_dark" alt="Ritik's GitHub profile summary" />
 
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=ritiksah141&bg_color=020617&color=cbd5e1&line=06b6d4&point=22d3ee&area=true&area_color=164e63&hide_border=true" alt="Ritik's contribution graph" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ritiksah141&theme=github_dark" alt="Ritik's GitHub statistics" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ritiksah141&theme=github_dark" alt="Ritik's repositories by language" />
+
+<img width="95%" src="https://streak-stats.demolab.com?user=ritiksah141&theme=github-dark-blue&hide_border=true&ring=39FF88&fire=4ADE80&currStreakLabel=4ADE80" alt="Ritik's GitHub contribution streak" />
+
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=ritiksah141&bg_color=0d1117&color=c9d1d9&line=39ff88&point=4ade80&area=true&area_color=14532d&hide_border=true" alt="Ritik's contribution graph" />
 
 </div>
 
@@ -101,6 +113,6 @@ A structured security audit covering scope, risk, compliance gaps, and prioritiz
 
 Explore my repositories, connect on [LinkedIn](https://linkedin.com/in/ritik-sah), or visit my [portfolio](https://portfolio-lilac-ten-41.vercel.app/).
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:06b6d4,55:0f172a,100:020617)
+![Footer](https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:22c55e,55:14532d,100:07110b)
 
 </div>
