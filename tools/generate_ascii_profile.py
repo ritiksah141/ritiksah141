@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 PGM = ROOT / "assets" / "avatar-gray.pgm"
-OUTPUT = ROOT / "assets" / "ascii-profile.svg"
+OUTPUT = ROOT / "assets" / "ascii-profile-v2.svg"
 RAMP = "@%#*+=-:. "
 
 
