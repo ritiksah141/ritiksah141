@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="./assets/ascii-profile-v3.svg" alt="ASCII portrait and terminal profile for Ritik Sah" />
+<img width="100%" src="./assets/ascii-profile-v4.svg" alt="ASCII portrait and terminal profile for Ritik Sah" />
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-238636?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-lilac-ten-41.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ritik-sah)
@@ -58,11 +58,28 @@ Co-owned with **TFTT44** and currently in active development. More project detai
 
 ## Open-source project
 
-### [OpenShield](https://github.com/openshield-org/openshield)
+<table>
+<tr>
+<td width="18%" align="center" valign="middle">
 
-An open-source Cloud Security Posture Management platform for Azure—a community-driven alternative to commercial CSPM tools. I contribute through my [OpenShield fork](https://github.com/ritiksah141/openshield).
+<a href="https://openshield.org"><img width="92" src="./assets/openshield-logo.svg" alt="OpenShield logo" /></a>
+
+</td>
+<td width="82%" valign="middle">
+
+### [OpenShield](https://openshield.org)
+
+Open-source Cloud Security Posture Management for Azure—a community-driven alternative to commercial CSPM platforms.
+
+[![Website](https://img.shields.io/badge/openshield.org-Visit-238636?style=for-the-badge&logo=safari&logoColor=white)](https://openshield.org)
+[![Upstream](https://img.shields.io/badge/Upstream-Repository-181717?style=for-the-badge&logo=github)](https://github.com/openshield-org/openshield)
+[![My fork](https://img.shields.io/badge/My-Fork-8957e5?style=for-the-badge&logo=github)](https://github.com/ritiksah141/openshield)
 
 `Python` `Azure` `Cloud Security` `CSPM` `Open Source`
+
+</td>
+</tr>
+</table>
 
 ## Security toolkit
 

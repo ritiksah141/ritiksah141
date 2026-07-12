@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 PGM = ROOT / "assets" / "avatar-gray.pgm"
-OUTPUT = ROOT / "assets" / "ascii-profile-v3.svg"
+OUTPUT = ROOT / "assets" / "ascii-profile-v4.svg"
 RAMP = "@%#*+=-:. "
 
 
@@ -27,11 +27,11 @@ for y in range(height):
     row = pixels[y * width : (y + 1) * width]
     characters = []
     for x, value in enumerate(row):
-        # Keep the portrait inside a deliberate oval so background details do
-        # not turn into stray ASCII strokes around the lower corners.
+        # A high-order superellipse creates a softly rounded square portrait
+        # without allowing background details to spill into the corners.
         dx = (x - (width - 1) / 2) / (width * 0.44)
         dy = (y - (height - 1) / 2) / (height * 0.45)
-        if dx * dx + dy * dy > 1:
+        if abs(dx) ** 6 + abs(dy) ** 6 > 1:
             characters.append(" ")
         else:
             characters.append(RAMP[min(len(RAMP) - 1, value * len(RAMP) // (maximum + 1))])
